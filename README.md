@@ -2,6 +2,8 @@
 
 -- 10 recipes
 
+-- 5th June: Update ingredients based on recipes
+
 create database Cookbook; 
 
 connect Cookbook; 
