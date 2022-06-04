@@ -1,7 +1,6 @@
 # RecipeDatabase
 
--- 15 recipes 
-
+-- 10 recipes
 
 create database Cookbook; 
 
@@ -23,9 +22,25 @@ INSERT INTO measure (name) VALUES('CUP'), ('TEASPOON'), ('TABLESPOON');
 
 INSERT INTO Ingredient (name) VALUES('egg'), ('salt'), ('sugar'), ('chocolate'), ('vanilla extract'), ('flour');
 
-INSERT INTO Recipe (name, description, instructions) VALUES('Boiled Egg', 'A single boiled egg', 'Add egg to cold water. Bring water to boil. Cook.');
+INSERT INTO Recipe (name, description, instructions) VALUES (‘Persian Omlette', ‘Tomato Omlette’, ‘https://blog.termehtravel.com/persian-omelette/');
 
-INSERT INTO Recipe (name, description, instructions) VALUES('Chocolate Cake', 'Yummy cake', 'Add eggs, flour, chocolate to pan. Bake at 350 for 1 hour');
+INSERT INTO Recipe (name, description, instructions) VALUES (‘Kookoo Sabzi', ‘Persian herb frittata', 'https://www.foodandwine.com/recipes/kookoo-sabzi');
+
+INSERT INTO Recipe (name, description, instructions) VALUES (‘Mirza Ghasemi', ‘Persian aubergines and tomatoes', 'https://www.unicornsinthekitchen.com/mirza-ghasemi-eggplants-tomatoes/');
+
+INSERT INTO Recipe (name, description, instructions) VALUES (‘Mast-o-khiar‘, ‘Persian cucumber yoghurt salad', 'https://www.thedeliciouscrescent.com/mast-o-khiar-persian-cucumber-yogurt/');
+
+INSERT INTO Recipe (name, description, instructions) VALUES (‘Khashke bademjan‘, ‘Persian kashk and aubergine dip', 'https://www.foodandwine.com/recipes/kashke-bademjan-iranian-kashk-and-eggplant-dip');
+
+INSERT INTO Recipe (name, description, instructions) VALUES (‘Lasagne al forno‘, ‘Lasagne', 'https://www.bbc.co.uk/food/recipes/mary_berrys_lasagne_al_16923');
+
+INSERT INTO Recipe (name, description, instructions) VALUES (‘Leek and potato soup‘, ‘Creamy soup', ‘https://www.bbcgoodfood.com/recipes/leek-potato-soup');
+
+INSERT INTO Recipe (name, description, instructions) VALUES (‘Simple chicken ramen‘, ‘Chicken ramen', ‘https://www.forkknifeswoon.com/simple-homemade-chicken-ramen/');
+
+INSERT INTO Recipe (name, description, instructions) VALUES (‘Chicken korma‘, ‘Chicken korma', ‘https://realfood.tesco.com/recipes/chicken-korma-curry.html');
+
+INSERT INTO Recipe (name, description, instructions) VALUES (‘Chicken burrito‘, ‘Chicken burrito', ‘https://www.jamieoliver.com/recipes/chicken-recipes/cracking-chicken-burrito/');
 
 INSERT INTO RecipeIngredient (recipe_id, ingredient_id, measure_id, amount) VALUES (1, 1, NULL, 1);
 
