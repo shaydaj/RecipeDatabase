@@ -3,6 +3,7 @@
 -- 10 recipes
 
 -- 5th June: Update ingredients based on recipes
+-- 6th June: Update values of measurement and/or change to grams
 
 create database Cookbook; 
 
