@@ -15,7 +15,8 @@ INSERT INTO Recipe (name, description, ingredients, instructions) VALUES (‘Per
 INSERT INTO Recipe (name, description, ingredients, instructions) VALUES (‘Kookoo Sabzi', ‘Persian herb frittata', 'https://www.foodandwine.com/recipes/kookoo-sabzi');
 
 INSERT INTO Recipe (name, description, ingredients, instructions) VALUES (‘Mirza Ghasemi', ‘Persian aubergines and tomatoes', 'basil, spinach, lettuce, parsely, scallions, garlic, fenugreek leaves, flour, eggs', 'https://www.unicornsinthekitchen.com/mirza-ghasemi-eggplants-tomatoes/');
-INSERT INTO Recipe (name, description, ingredients, instructions) VALUES (‘Mast-o-khiar‘, ‘Persian cucumber yoghurt salad', 'cucumber, mint, yoghurt', 'https://www.thedeliciouscrescent.com/mast-o-khiar-persian-cucumber-yogurt/');
+                     
+INSERT INTO Recipe (name, description, ingredients, instructions) VALUES (‘Mastokhiar‘, ‘Persian cucumber yoghurt salad', 'cucumber, mint, yoghurt', 'https://www.thedeliciouscrescent.com/mast-o-khiar-persian-cucumber-yogurt/');
 
 INSERT INTO Recipe (name, description, ingredients, instructions) VALUES (‘Khashke bademjan‘, ‘Persian kashk and aubergine dip', 'aubergine, onion, garlic, kashk, bread, saffron, mint', 'https://www.foodandwine.com/recipes/kashke-bademjan-iranian-kashk-and-eggplant-dip');
 
