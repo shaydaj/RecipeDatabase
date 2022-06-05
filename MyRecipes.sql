@@ -29,5 +29,3 @@ INSERT INTO Recipe (name, description, ingredients, instructions) VALUES (‘Sim
 INSERT INTO Recipe (name, description, ingredients, instructions) VALUES (‘Chicken korma‘, ‘Chicken korma', 'chicken breast, butter, onions, ginger, coriander, chilli powder, mango chutney, chicken stock, double cream , rice', ‘https://realfood.tesco.com/recipes/chicken-korma-curry.html');
 
 INSERT INTO Recipe (name, description, ingredients, instructions) VALUES (‘Chicken burrito‘, ‘Chicken burrito', 'chicken thighs, garlic, coriander, black beans, rice, tomatoes, tortillas, cheese, yoghurt', ‘https://www.jamieoliver.com/recipes/chicken-recipes/cracking-chicken-burrito/');
-
-SELECT r.name AS 'Recipe', r.instructions, ri.amount AS 'Amount', mu.name AS 'Unit of Measure', i.name AS 'Ingredient' FROM Recipe r JOIN RecipeIngredient ri on r.id = ri.recipe_id JOIN Ingredient i on i.id = ri.ingredient_id LEFT OUTER JOIN Measure mu on mu.id = measure_id;
