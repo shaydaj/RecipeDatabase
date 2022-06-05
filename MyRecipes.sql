@@ -1,5 +1,3 @@
-# RecipeDatabase
-
 -- 6th June: Finalise and run on SQL
 
 -- To improve: use a better method of adding the ingredients as some have been repeated (bad practice)
