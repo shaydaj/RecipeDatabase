@@ -1,4 +1,4 @@
--- 6th June: Finalise, format and run on SQL 
+-- Next steps: fix and edit  
 
 -- To improve: use a better method of adding the ingredients as some have been repeated (bad practice)
 
@@ -32,5 +32,4 @@ INSERT INTO RecipeIngredient (recipe_id, ingredient_id, measure_id, amount) VALU
 INSERT INTO RecipeIngredient (recipe_id, ingredient_id, measure_id, amount)  VALUES (2, 1, 8, 1);
 INSERT INTO RecipeIngredient (recipe_id, ingredient_id, measure_id, amount)  VALUES (1, 2, 3, 1);
 INSERT INTO RecipeIngredient (recipe_id, ingredient_id, measure_id, amount)  VALUES (2, 3, 7, 1);
-INSERT INTO RecipeIngredient (recipe_id, ingredient_id, measure_id, amount)  VALUES (3, 4, 9, 1);
 
